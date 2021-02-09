@@ -9,6 +9,7 @@ class Dragon extends Personnage {
         // Je redéfini le constructeur de cette classe, je souhaite que mes instances de dragon aient une propriété id
         // définie aléatoirement entre 1 et 99 999
         $this->setId(rand(1,99999));
+        $this->vie = 100;
 
         //Je souhaite également que les propriétés x et y soient défini aléatoirement pour chaque instance dragon
         // Je vais définir x et y aléatoirement entre 1 et 900
